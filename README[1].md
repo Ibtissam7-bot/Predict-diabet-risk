@@ -12,17 +12,17 @@ Il combine des approches de **clustering non supervisé** et de **classification
 
 diabete_prediction_project/
 
-app.py                                  # Application Streamlit
+app.py                                  -- Application Streamlit
 
-meilleur_modele.pkl                     # Modèle ML final enregistré
+meilleur_modele.pkl                     -- Modèle ML final enregistré
 
-dataset-687cf473b3eba683446726.csv      # Jeu de données historique 
+dataset-687cf473b3eba683446726.csv      -- Jeu de données historique 
 
-README[1].md                            # Documentation du projet 
+README[1].md                            -- Documentation du projet 
 
-source_file1.ipynb                      # Notebook principal 
+source_file1.ipynb                      -- Notebook principal 
 
-Test1.ipynb                             # Test du modèle 
+Test1.ipynb                             -- Test du modèle 
 
 
 
