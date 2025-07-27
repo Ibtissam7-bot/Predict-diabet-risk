@@ -1,6 +1,6 @@
 #  Prédiction du Risque de Diabète par Machine Learning
-       Réalisée par :Sannaky IBTISSAM
-                     Naoui IKRAM
+       Réalisée par :SANNAKY Ibtissam
+                     NAOUI Ikram
 
 ##  Contexte du projet
 Ce projet a été développé dans le cadre d’un laboratoire biomédical pour prédire si un patient présente un **risque élevé de développer le diabète** à partir de données cliniques.  
@@ -10,16 +10,19 @@ Il combine des approches de **clustering non supervisé** et de **classification
 
 ##  Structure du projet
 
-.
-├── data/
-│ └── diabetes.csv # Données sources
-├── notebooks/
-│ └── prediction_diabete.ipynb
-├── models/
-│ └── final_model.pkl # Meilleur modèle sauvegardé
-├── src/
-├── README.md 
+diabete_prediction_project/
 
+app.py                                  -- Application Streamlit
+
+meilleur_modele.pkl                     -- Modèle ML final enregistré
+
+dataset-687cf473b3eba683446726.csv      -- Jeu de données historique 
+
+README[1].md                            -- Documentation du projet 
+
+source_file1.ipynb                      -- Notebook principal 
+
+Test1.ipynb                             -- Test du modèle 
 
 
 
@@ -69,7 +72,11 @@ Le dataset contient les caractéristiques suivantes :
 
 ###  Sauvegarde et déploiement
 - Sauvegarde du meilleur modèle avec `joblib`
-- Possibilité de le déployer dans une API Flask/FastAPI
 
+### Test du modèles sur des nouvaux outputs
+- Test du modèle sur 'Test1.ipynb'
+
+### Affichage d'une application Streamlit locale qui gère dinamiquement l'application du modèle choisi
+- Utiliser l'application Streamlit 'app.py' par la commande *streamlit run app.py*
 
 
